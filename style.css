@@ -1,14 +1,16 @@
+
 html {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 0cm;
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
+  margin: 40;
+  padding: 40;
 }
 
 .logo{
-  text-align: center;
+  text-align: start;
   background: color#ff0000;
   color:#00fff0;
   padding: 0.5em;
@@ -16,15 +18,17 @@ html, body {
 
 #character-bar {
   height: 15vh;
-  background: rgb(179, 138, 49);
-  display: flex;
+  background:#00fff0;
+  display:inline-flex;
+  
+
   justify-content: space-around;
   align-items: center;
   padding-bottom: 3vh;
 }
 
 #character-bar span {
-  padding: 1%;
+  padding: 7%;
   height: 80%;
   width: 8vw;
   display: flex;
@@ -32,22 +36,22 @@ html, body {
   font-size: 2vh;
   align-items: center;
   border-radius: 2em;
-  border: 1px solid white;
+  border: indigo -600%;;
 }
 
 .characterInfo{
-  height: 550px;
+  height: 50pc;
   padding: 30px;
   font-size: 24px;
-  border: dotted;
+  border: b -4%;;
   text-align: center;
 }
 
 input[type="submit"], button {
-  background-color: rgb(49, 109, 179);
-  color: white;
+  background-color:navy;
+  color:peachpuff;
   font-size: 18px;
-  border-radius: 6px;
+  border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -56,6 +60,6 @@ input[type="text"] {
 }
 
 #image{
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
 }
