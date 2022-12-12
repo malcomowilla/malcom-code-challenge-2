@@ -43,21 +43,19 @@ html, body {
   height: 50pc;
   padding: 30px;
   font-size: 24px;
-  border: b -4%;;
+  border:  -4%;;
   text-align: center;
 }
 
 input[type="submit"], button {
-  background-color:navy;
-  color:peachpuff;
-  font-size: 18px;
-  border-radius: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color:orange;
+  color:yellowgreen;
+  font-size: 30px;
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-input[type="text"] {
-  font-size: 3vh;
-}
+
 
 #image{
   width: 200px;
